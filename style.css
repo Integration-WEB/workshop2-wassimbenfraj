@@ -1,0 +1,31 @@
+body {
+    color: #ff7899;
+  }
+  
+  .button, .button-alert {
+    display: inline-block;
+    color: #ff7899;
+    text-align: center;
+    border: solid 2px #ff7899;
+  }
+  
+  .button-alert {
+    border-radius: 4px;
+  }
+  
+  #box {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  btn {
+    background: #ff7899;
+    border-radius: 5px;
+    color: #ffb60b;
+  }
+  btn else {
+    color: #ff1f17;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  

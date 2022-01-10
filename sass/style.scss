@@ -1,0 +1,30 @@
+@import "mixin";
+$primary-color:#ff7899;
+body{
+    color:$primary-color;
+}
+.button{
+    display: inline-block;
+    color: $primary-color;
+    text-align: center;
+    border: solid 2px $primary-color;
+}
+.button-alert{
+    @extend .button;
+    border-radius: 4px;
+}
+
+#box{
+    @include inline-blick();
+    }
+
+btn{
+    background: $primary-color;
+    border-radius: 5px;
+    @if lightness($primary-color)>50%{
+        color: #ffb60b;
+    }else{
+        color:#ff1f17;
+    }
+}   
+    
